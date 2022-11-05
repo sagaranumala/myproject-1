@@ -13,20 +13,6 @@ html,body{
     font-family: "Roboto",sans-serif;
 }
 
-.container .Name{
-    color: rgb(211, 43, 226);
-    font-size: 90px;
-    line-height: 1.2;
-    font-weight: 400;
-    margin-bottom: 20px;
-    border:2px solid blue;
-    border-radius: 50px;
-    background-color: aqua;
-}
-.container .Name:hover{
-    background-color: rgb(255, 221, 0);
-}
-
 /* Navigation*/
 
 nav{
@@ -38,10 +24,14 @@ nav{
     padding: 10px;
     z-index: 50px;
 }
-.navigation{
+.navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.logo_container img{
+    height: 75px;
+    width: 100px;
 }
 .container{
     max-width: 1200px;
@@ -51,8 +41,28 @@ nav{
     font-size: 32px;
 }
 
-/* Hero section  */
+      /*Hedding part*/
 
+.container .Name{
+    color: rgb(211, 43, 226);
+    font-size: 90px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 100px;
+    border:2px solid blue;
+    border-radius: 50px;
+    background-color: aqua;
+}
+.container .Name:hover{
+    background-color: rgb(255, 221, 0);
+}
+
+  /* Hero section  */
+
+  .hero_image img{
+    height: 400px; 
+    width: 400px;
+  }
 .container h1{
     font-size: 62px;
     text-align: center;
